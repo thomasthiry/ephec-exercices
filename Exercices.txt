@@ -1,0 +1,5 @@
+1) Compter les lignes couvertes (3 lignes - 100%)
+2) else pas couvert : ajoutez un test
+3) if pas couvert : ajoutez un test. On a 100% de couverture, tout est testé. Mais quid tax rate -0.5 ?
+4) Avec le code du 3) augmentez le pourcentage de couverture sans modifier les tests ni les fonctionnalités
+5) A quoi sert le code coverage ?
