@@ -27,9 +27,22 @@
             }
             else
             {
-                var taxes = salary*taxRate;
-                return salary + taxes;
+                return salary + salary * taxRate;
             }
+        }
+
+        private string _text1;
+        public string Text1
+        {
+            get { return _text1; }
+            set { _text1 = value; }
+        }
+
+        private string _text2;
+        public string Text2
+        {
+            get { return _text2; }
+            set { _text2 = value; }
         }
     }
 }
